@@ -1,0 +1,16 @@
+{
+  "name": "nicochdl",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "author": "madmaid",
+  "license": "WTFPL",
+  "dependencies": {
+    "node-ts": "^5.0.4",
+    "rss-parser": "^3.7.6"
+  },
+  "devDependencies": {}
+}

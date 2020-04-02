@@ -1,0 +1,10 @@
+[Unit]
+Description=Download Nicovideo Channel Videos
+[Service]
+Type=oneshot
+WorkingDirectory=%h/repo/nicochdl/
+ExecStart=/usr/bin/npm start ~/.config/nicochdl/channels.json ./media/recorded/nicoch/ 2>&1
+
+Environment=NODE_ENV=production
+[Install]
+WantedBy=default.target

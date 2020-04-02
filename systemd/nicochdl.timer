@@ -1,0 +1,9 @@
+[Unit]
+Description=Daily Timer for Nicovideo Channel Video Donwloader
+
+[Timer]
+OnCalendar=*-*-* 3:50:00
+Unit=nicochdl.service
+
+[Install]
+WantedBy=timers.target
